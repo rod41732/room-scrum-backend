@@ -34,7 +34,7 @@ const expressWs = require('express-ws')(app);
 const shortid = require('shortid');
 const cors = require('cors');
 const dotenv = require('dotenv');
-
+dotenv.config();
 
 
 app.use(bodyParser.urlencoded({ extended: false }));
