@@ -1,0 +1,36 @@
+Arguments: 
+  /home/road/.nvm/versions/node/v12.13.1/bin/node /home/road/.nvm/versions/node/v12.13.1/bin/yarn add room-scrum
+
+PATH: 
+  /home/road/.nvm/versions/node/v12.13.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/road/.local/bin:/home/road/.yarn/bin:/snap/bin:/usr/lib/jvm/jdk-11.0.6/bin
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  12.13.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/room-scrum: Not found
+      at Request.params.callback [as _callback] (/home/road/.nvm/versions/node/v12.13.1/lib/node_modules/yarn/lib/cli.js:66947:18)
+      at Request.self.callback (/home/road/.nvm/versions/node/v12.13.1/lib/node_modules/yarn/lib/cli.js:140665:22)
+      at Request.emit (events.js:210:5)
+      at Request.<anonymous> (/home/road/.nvm/versions/node/v12.13.1/lib/node_modules/yarn/lib/cli.js:141637:10)
+      at Request.emit (events.js:210:5)
+      at IncomingMessage.<anonymous> (/home/road/.nvm/versions/node/v12.13.1/lib/node_modules/yarn/lib/cli.js:141559:12)
+      at Object.onceWrapper (events.js:299:28)
+      at IncomingMessage.emit (events.js:215:7)
+      at endReadableNT (_stream_readable.js:1184:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
